@@ -15,6 +15,7 @@ def permutation_recursive(string: str, pocket='') -> None:
 
 
 def permutation_iterative(string: str) -> None:
+    """Iterative function to print all the permutations of a given string"""
     for p in range(factorial(len(string))):
         print(''.join(string))
         i = len(string) - 1
@@ -31,5 +32,5 @@ def permutation_iterative(string: str) -> None:
 
 
 if __name__ == '__main__':
-    # permutation_recursive('ABC')
+    permutation_recursive('ABC')
     permutation_iterative(list('ABC'))
