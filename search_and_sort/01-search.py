@@ -27,4 +27,4 @@ if __name__ == '__main__':
     print(
         f'Linear Search for target {target} in array {arr}: {linear_search(array=arr, target=target)}')
     print(
-        f'Binary Search - Iterative for target {target} in array {arr}: {binary_search_iterative(array=arr, start=0, end=len(arr), target=target)}')
+        f'Binary Search - Iterative for target {target} in array {arr}: {binary_search_iterative(array=arr, start=0, end=len(arr)-1, target=target)}')
